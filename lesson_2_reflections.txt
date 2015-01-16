@@ -14,3 +14,12 @@ How can you use the stagin are to make sure you have one commit per logical chan
   once a file is added to a staging area you can simply call git status and it will
   display all the files waiting to be commited. Before committing the file you can
   check the differences from the repository by using git diff --staged
+
+What are some situations when branches would be helpful in keeping your history
+organize?How would branches help?
+  
+  Some situtations when branches would be helpful in keeping your history organized
+  are for example when adding a new experimental feature to your code or when creating 
+  a new version in a different language.Branches keep things organized by having different
+  names that we can use.
+
