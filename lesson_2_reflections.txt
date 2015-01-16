@@ -28,3 +28,9 @@ How do the diagrams help you visualize the branch structure?
   Diagrams show how each commit is connected to a branch and what commits will not be
   traceable after checking out a branch. It can also be used to track changes in each
   branch
+
+what is the result of merging two branches together?Why do we represent it in the diagram
+the way we do?
+  the result of merging two branches together is a complete solution from two separate branches
+ if there were any changes introduced in either this will be reflected in the new branch
+ the diagram shows the different parents and what will be included in the merge.
