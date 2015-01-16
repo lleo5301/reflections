@@ -1,12 +1,16 @@
-add Lesson 2 reflections
+What happens when you initialize a repository? Why do you need to do it?
 
-#What happens when you initialize a repository? Why do you need to do it?
+  This creates a new git repository. In order to start tracking file
+  changes git needs to be initialized.
 
-#  This creates a new git repository. In order to start tracking file
-#  changes git needs to be initialized.
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
 
-#How is the staging area different from the working directory and the repository?
-#What value do you think it offers?
+  the staging area has not been committed therefore it does note actively affect
+  the repository. it allows for changes before committing a file to a repository
 
-#  the staging area has not been committed therefore it does note actively affect
-#  the repository. it allows for changes before committing a file to a repository
+How can you use the stagin are to make sure you have one commit per logical change?
+
+  once a file is added to a staging area you can simply call git status and it will
+  display all the files waiting to be commited. Before committing the file you can
+  check the differences from the repository by using git diff --staged
