@@ -23,3 +23,8 @@ organize?How would branches help?
   a new version in a different language.Branches keep things organized by having different
   names that we can use.
 
+How do the diagrams help you visualize the branch structure?
+
+  Diagrams show how each commit is connected to a branch and what commits will not be
+  traceable after checking out a branch. It can also be used to track changes in each
+  branch
