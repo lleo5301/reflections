@@ -17,9 +17,9 @@ How can you use the stagin are to make sure you have one commit per logical chan
 
 What are some situations when branches would be helpful in keeping your history
 organize?How would branches help?
-  
+
   Some situtations when branches would be helpful in keeping your history organized
-  are for example when adding a new experimental feature to your code or when creating 
+  are for example when adding a new experimental feature to your code or when creating
   a new version in a different language.Branches keep things organized by having different
   names that we can use.
 
@@ -31,6 +31,12 @@ How do the diagrams help you visualize the branch structure?
 
 what is the result of merging two branches together?Why do we represent it in the diagram
 the way we do?
+
   the result of merging two branches together is a complete solution from two separate branches
  if there were any changes introduced in either this will be reflected in the new branch
  the diagram shows the different parents and what will be included in the merge.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+   The pros of automatic merging vs always doing merges manually is that git will display
+   any conflicts and your versions will be up to date.
