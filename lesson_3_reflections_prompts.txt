@@ -24,3 +24,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   By communicating through different means or sharing files through a cloud service.
   changes would not be tracked and code is more prone to error. There would be no requests and scheduling
   would be complicated.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+  When introducing new concepts or new features that are not ready for prime time.
+  Introducing changes in master is simpler since you will always be up to date with master.
+  when creating changes in other branches you need to complete more steps in order to stay up to
+  date with the master branch and any changes that might have been added to master.
